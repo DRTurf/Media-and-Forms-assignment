@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media and Forms Assignment Q5(a)</title>
+</head>
+<body>
+    <h1>Sign up Form:</h1>
+    <form action="#">
+        <div>
+            <label for="user_first_name">First Name:</label>
+            <input required type="text" id="user_first_name" pattern="[a-zA-Z]{3,50}">
+        </div>
+        <div>
+            <label for="user_last_name">Last Name:</label>
+            <input required type="text" id="user_last_name" pattern="[a-zA-Z]{3,50}">
+        </div>
+        <div>
+            <label for="user_email">Email:</label>
+            <input required type="email" id="user_email">
+        </div>
+        <div>
+            <label for="user_password">Password:</label>
+            <input required type="password" id="user_password">
+        </div>
+        <div>
+            <label for="user_confirm_password">Confirm Password:</label>
+            <input required type="password" id="user_confirm_password">
+        </div>
+        <div>
+            <label for="user_age">Age:</label>
+            <input required type="text" id="user_age" pattern="^[1-9][0-9]?$|^150$">
+        </div>
+        <div>
+            <label for="user_gender">Gender:</label>
+            <input required type="text" id="user_gender">
+        </div>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
